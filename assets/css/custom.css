@@ -11,9 +11,6 @@ ul{
 
 a{
   text-decoration: none;
-}
-
-a, a:visited{
   color: #fff;
 }
 
@@ -23,13 +20,17 @@ body{
   font-family: lato, sans-serif;
 }
 
+/* Clearfix */
+.clearfix:after {
+  display:block;
+  clear:both;
+}
 
 /*Nav Bar*/
 .top-nav{
   background-color: #283593;
   height: 12em;
   color: #fff;
-  overflow: hidden;
   -webkit-box-shadow: 0 0 1.5em 1em #a9a9a9;
      -moz-box-shadow: 0 0 1.5em 1em #a9a9a9;
           box-shadow: 0 0 1.5em 1em #a9a9a9;
@@ -66,10 +67,33 @@ nav ul li{
   padding: 3em 1em;
   font-size: 1.2em;
   text-transform: uppercase;
+  position: relative;
 }
 
-.dropdown-content{
-  display: none;
+.sub-menu {
+  margin-top: .5em;
+  height: 8em;
+  width: 160%;
+  position:absolute;
+  left:-5em;
+  z-index:-1;
+  opacity:0;
+  background:#3f51b5;
+  padding: 0;
+  font-size: inherit;
+}
+
+.sub-menu li{
+  padding: .2em;
+}
+
+.menu li:hover .sub-menu{
+  z-index:1;
+  opacity:1;
+}
+
+.menu li:hover{
+  padding-bottom: 0;
 }
 
 /* Homepage Styling */
@@ -137,7 +161,7 @@ footer{
   color: #9fa8da;
 }
 
-.footer-copyright a:hover, .footer-links ul li a:hover{
+nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
   color: #8c9eff;
 }
 
