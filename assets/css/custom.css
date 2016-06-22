@@ -3,6 +3,7 @@
 /*Global Setting*/
 #body-container{
   min-height: 100%;
+  background-color: #c5cae9;
 }
 
 ul{
@@ -72,15 +73,16 @@ nav ul li{
 
 .sub-menu {
   margin-top: .5em;
-  height: 8em;
-  width: 160%;
+  height: 6.5em;
+  width: 100%;
   position:absolute;
-  left:-5em;
+  left: -1em;
   z-index:-1;
   opacity:0;
   background:#3f51b5;
-  padding: 0;
-  font-size: inherit;
+  padding: .5em;
+  font-size: .75em;
+  border-radius: .2em;
 }
 
 .sub-menu li{
@@ -107,6 +109,43 @@ nav ul li{
   height: 38em;
   width: 63em;
   margin: 0 auto;
+}
+
+/*About Page Styling*/
+
+.about-container{
+  padding: 1em 4em;
+  width: 65%;
+  margin: 0 auto;
+  background-color: #fff;
+}
+
+.about-container h1{
+  text-transform: uppercase;
+  font-size: 1.7em;
+}
+
+.about-container p{
+  line-height: 1.5em;
+  font-size: 1.2em;
+}
+
+.about-container a{
+  color: #283593;
+  font-weight: bold;
+}
+
+.about-container a:hover{
+  text-decoration: underline;
+}
+
+/* Contact page */
+#contact-pg{
+  min-height: 36em;
+}
+
+span{
+  color: #283593;
 }
 
 /* Footer Styling */
