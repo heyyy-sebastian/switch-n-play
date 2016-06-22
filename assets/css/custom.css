@@ -126,7 +126,7 @@ nav ul li{
 }
 
 .about-container p{
-  line-height: 1.5em;
+  line-height: 1.6em;
   font-size: 1.2em;
 }
 
@@ -146,6 +146,34 @@ nav ul li{
 
 span{
   color: #283593;
+}
+
+.connect-div{
+  margin-top: 4em;
+}
+
+/* Shows */
+#see-snp-title{
+  text-transform: none;
+  padding-top: .5em;
+}
+
+#upcoming-shows-title{
+  margin: 2em 0 0;
+  text-align: center;
+}
+
+.upcoming-shows{
+  display: inline-block;
+  width: 45%;
+  text-align: center;
+  margin: 1em;
+  padding-bottom: 2.5em;
+}
+
+.upcoming-shows img{
+  height: 30em;
+  width: 22em;
 }
 
 /* Footer Styling */
