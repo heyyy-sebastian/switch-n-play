@@ -157,6 +157,10 @@ nav ul li{
   padding: 1em;
 }
 
+#last-row{
+  padding: 1em 10em;
+}
+
 /* CARDS */
 /*Based on Google's Materialize Cards lines 4529-4663*/
 .card {
@@ -173,6 +177,10 @@ nav ul li{
 .card .card-title {
   font-size: 24px;
   font-weight: 300;
+}
+
+span.card-title.divina{
+  font-size: 1.4em;
 }
 
 .right {
