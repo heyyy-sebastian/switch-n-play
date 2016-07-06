@@ -23,6 +23,7 @@ The goal of this redesign is to make a cleaner, mobile-friendly version of the s
 - Pop-Up functionality for bio paragraph: should slide up over image on click
 - Add list of former/founding members
 - Add current performer bios
+- Adjust proportions of some of the performer photos so they're less warped
 
 ###Media Page
 - Press Section with links to news articles
