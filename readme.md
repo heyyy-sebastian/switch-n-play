@@ -11,6 +11,8 @@ The goal of this redesign is to make a cleaner, mobile-friendly version of the s
 - Implement more robust CSS browser resets
 - Make sure all <a> tags are updated and point to the right page
 - See if there's a way to make the dropdown menu less shakey?
+- Obsessively comment all of my code so Mary & Meke know what stuff does
+- Add TOC when finished
 
 ###Landing Page
 - Image carousel
