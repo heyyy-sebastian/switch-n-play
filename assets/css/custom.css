@@ -1,6 +1,8 @@
 /**/
 
-/*Global Setting*/
+/*Global Settings*/
+
+/*This setting helps the footer stick to the bottom of the browser window*/
 #body-container{
   min-height: 100%;
   background-color: #c5cae9;
@@ -37,6 +39,7 @@ body{
           box-shadow: 0 0 1.5em 1em #a9a9a9;
 }
 
+/*This is the content from the left-hand side of the Nav Bar*/
 .nav-title{
   float: left;
 }
@@ -55,6 +58,7 @@ body{
   padding-left: 3.6em;
 }
 
+/*This is the content from the right-hand side of the nav bar (page links)*/
 nav ul{
   height: 12em;
   float: right;
@@ -71,6 +75,7 @@ nav ul li{
   position: relative;
 }
 
+/*Dropdown settings*/
 .sub-menu {
   margin-top: .5em;
   height: 6.5em;
@@ -157,12 +162,14 @@ nav ul li{
   padding: 1em;
 }
 
+/*This centers the cards on the last row because there are 2 members
+instead of 3*/
 #last-row{
   padding: 1em 10em;
 }
 
 /* CARDS */
-/*Based on Google's Materialize Cards lines 4529-4663*/
+/*Based on Google's Materialize Cards from the Materialize docs lines 4529-4663*/
 .card {
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   display: inline-block;
@@ -179,6 +186,7 @@ nav ul li{
   font-weight: 300;
 }
 
+/*Divina's name is long, so this resizes the font size of her name*/
 span.card-title.divina{
   font-size: 1.4em;
 }
@@ -393,6 +401,7 @@ footer{
   color: #9fa8da;
 }
 
+/*This sets the hover state of <a> tags for the top nav and the footer <a> tags*/
 nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
   color: #8c9eff;
 }
