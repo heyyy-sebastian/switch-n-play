@@ -145,6 +145,9 @@ nav ul li{
 }
 
 /*Members Page*/
+
+/*The container for the members page is wider than the other pages' containers
+because the images look better in a wider container*/
 .members-container{
   width: 80%;
   margin: 0 auto;
@@ -166,6 +169,20 @@ nav ul li{
 instead of 3*/
 #last-row{
   padding: 1em 10em;
+}
+
+.former-members{
+  text-align: center;
+  margin: 4em 0 2em;
+}
+
+.former-members p{
+  font-size: 1.2em;
+}
+
+#founding-members{
+  font-size: .9em;
+  color: #000;
 }
 
 /* CARDS */
