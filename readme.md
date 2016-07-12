@@ -22,6 +22,7 @@ The goal of this redesign is to make a cleaner, mobile-friendly version of the s
 - "Like Us on Facebook" button
 
 ###Members Page
+7/12/2016 Hailey is going to try to finish this page by EOW
 - Pop-Up functionality for bio paragraph: should slide up over image on click
 - [DONE] Add list of former/founding members
 - Add current performer bios
