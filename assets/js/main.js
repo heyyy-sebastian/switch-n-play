@@ -8,10 +8,13 @@ $(document).ready(function(){
       if ($(this).find('> .card-reveal').length) {
         if ($(e.target).is($('.card-reveal .card-title')) || $(e.target).is($('.card-reveal .card-title i'))) {
           // Make Reveal animate down and display none
+          //look up .velocity in jQuery docs
           $(this).find('.card-reveal').velocity(
             {translateY: 0}, {
               duration: 225,
               queue: false,
+              //easeInOutQuad might be a helper function; research if this might
+              //be blocking functionality
               easing: 'easeInOutQuad',
               complete: function() { $(this).css({ display: 'none'}); }
             }
