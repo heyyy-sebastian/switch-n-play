@@ -5,16 +5,24 @@ $(document).ready(function(){
   $(document).on('click.card', '.card', function (e) {
       console.log("clicked");
 
-      if ($(this).find('> .card-reveal').length) {
-        if ($(e.target).is($('.card-reveal .card-title')) || $(e.target).is($('.card-reveal .card-title i'))) {
+      if ($(this).find('> .card-reveal')) {
+
+        console.log("found the card-reveal");
+
+        //this function isn't hitting the classes below, which is
+        //preventing the info from sliding up
+        if ($(e.target).is($('.card-reveal .card-title')) ||
+          $(e.target).is($('.card-reveal .card-title i'))) {
+          console.log("found the card-reveal icon");
           // Make Reveal animate down and display none
-          //look up .velocity in jQuery docs
+          //look up .velocity in jQuery docs > this is a plugin imported
+          //in the materialize docs
+          var foundTheCard = $(this).find('.card-reveal');
+          console.log(foundTheCard);
           $(this).find('.card-reveal').velocity(
             {translateY: 0}, {
               duration: 225,
-              queue: false,
-              //easeInOutQuad might be a helper function; research if this might
-              //be blocking functionality
+              queue: false;
               easing: 'easeInOutQuad',
               complete: function() { $(this).css({ display: 'none'}); }
             }
@@ -22,6 +30,7 @@ $(document).ready(function(){
         }
         else if ($(e.target).is($('.card .activator')) ||
                  $(e.target).is($('.card .activator i')) ) {
+          console.log("found the activator")
           $(e.target).closest('.card').css('overflow', 'hidden');
           $(this).find('.card-reveal').css({ display: 'block'}).velocity("stop", false).velocity({translateY: '-100%'},
             {duration: 300, queue: false, easing: 'easeInOutQuad'});
