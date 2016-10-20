@@ -1,4 +1,4 @@
-/**/
+/*Table of Contents*/
 
 /*Global Settings*/
 
@@ -103,6 +103,40 @@ nav ul li{
   padding-bottom: 0;
 }
 
+/* Nav bar media queries */
+@media screen and (max-width: 930px){
+  .nav-title{
+    display: block;
+  }
+
+}
+
+@media screen and (max-width: 1000px){
+  /* decrease height as width shrinks */
+  .top-nav{
+    height: 10em;
+  }
+  /* Shrink SnP title as screen shrinks */
+  .nav-title{
+    width: 35%;
+  }
+
+  .nav-title h1{
+    font-size: 3.4em;
+    padding: .5em 0 0 1em;
+  }
+
+  .nav-title p{
+    padding: .75em 0 0 4.5em;
+    font-size: .9em;
+  }
+
+  /* increase width of menu items */
+  nav ul{
+    width: 60%;
+  }
+}
+
 /* Homepage Styling */
 .container{
   margin: 0 auto;
@@ -114,6 +148,13 @@ nav ul li{
   height: 38em;
   width: 63em;
   margin: 0 auto;
+}
+
+/* Homepage media queries */
+@media screen (max-width: 1000px){
+  .container{
+    width: 100%;
+  }
 }
 
 /*About Page Styling*/
@@ -183,6 +224,13 @@ instead of 3*/
 #founding-members{
   font-size: .9em;
   color: #000;
+}
+
+/* Members page media queries */
+@media screen and (max-width: 1000px){
+  .members-container{
+    width: 100%;
+  }
 }
 
 /* CARDS */
