@@ -13,6 +13,8 @@ The goal of this redesign is to make a cleaner, mobile-friendly version of the s
 - See if there's a way to make the dropdown menu less shakey?
 - [DONE] Obsessively comment all of my code so Mary & Meke know what stuff does
 - Add TOC when finished
+- Sticky header
+- Add pg-to-pg transition animation
 
 ###Landing Page
 - Image carousel
@@ -22,7 +24,6 @@ The goal of this redesign is to make a cleaner, mobile-friendly version of the s
 - "Like Us on Facebook" button
 
 ###Members Page
-7/12/2016 Hailey is going to try to finish this page by EOW
 - Pop-Up functionality for bio paragraph: should slide up over image on click
 - [DONE] Add list of former/founding members
 - Add current performer bios
