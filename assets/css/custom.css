@@ -132,31 +132,39 @@ nav ul li{
 }
 
 @media screen and (max-width: 930px){
-  /* Stack title & menu on smaller screen sizes */
-  .nav-title, nav{
-    display: block;
-    width: 100%;
-  }
-
   .top-nav{
-    height: 10em;
+    height: 9em;
   }
 
-  nav ul, .right{
-    float: none;
-    width: 100%;
+  nav ul{
+    width: 55%;
+    padding: .6em .8em;
+  }
+
+  .nav-title{
+    padding-left: 1em;
+    margin: 0 auto;
   }
 
   /* Shrink SnP title as screen shrinks */
 
   .nav-title h1{
-    font-size: 3em;
-    padding: .5em 0 0 1em;
+    font-size: 2.8em;
+    padding: .6em 0 0 1em;
   }
 
   .nav-title p{
-    padding: .75em 0 0 4.5em;
+    padding: .5em 0 0 2.5em;
     font-size: .9em;
+  }
+
+  ul{
+    padding: 0;
+  }
+
+  nav ul li{
+    padding: 2.5em 1em;
+    font-size: 1em;
   }
 
 }
@@ -254,6 +262,7 @@ instead of 3*/
 @media screen and (max-width: 1000px){
   .members-container{
     width: 100%;
+    margin: 0;
   }
 }
 
