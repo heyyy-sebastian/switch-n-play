@@ -104,14 +104,8 @@ nav ul li{
 }
 
 /* Nav bar media queries */
-@media screen and (max-width: 930px){
-  .nav-title{
-    display: block;
-  }
 
-}
-
-@media screen and (max-width: 1000px){
+@media screen and (min-width: 931px) and (max-width: 1000px){
   /* decrease height as width shrinks */
   .top-nav{
     height: 10em;
@@ -135,6 +129,36 @@ nav ul li{
   nav ul{
     width: 60%;
   }
+}
+
+@media screen and (max-width: 930px){
+  /* Stack title & menu on smaller screen sizes */
+  .nav-title, nav{
+    display: block;
+    width: 100%;
+  }
+
+  .top-nav{
+    height: 10em;
+  }
+
+  nav ul, .right{
+    float: none;
+    width: 100%;
+  }
+
+  /* Shrink SnP title as screen shrinks */
+
+  .nav-title h1{
+    font-size: 3em;
+    padding: .5em 0 0 1em;
+  }
+
+  .nav-title p{
+    padding: .75em 0 0 4.5em;
+    font-size: .9em;
+  }
+
 }
 
 /* Homepage Styling */
