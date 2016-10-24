@@ -169,7 +169,7 @@ nav ul li{
   }
 
 }
-
+ /* screens smaller than iPads */
 @media screen and (max-width: 765px){
   .top-nav{
     height: 8em;
@@ -177,7 +177,7 @@ nav ul li{
 
   .nav-title{
     text-align: center;
-    padding: 0;
+    padding: 0 0 1em;
   }
 
   .nav-title > * {
@@ -190,13 +190,26 @@ nav ul li{
     padding-left: 3.2em;
   }
 
-  nav ul, .right{
-    float: none;
+  nav ul {
     width: 100%;
     display: block;
+    margin: 0 0  1em;
+    padding: 0;
+    background-color: #3F51B5;
+    height: 3em;
   }
 
+  nav ul li{
+    padding: 1em;
+  }
 
+}
+
+/*more mobile resizing*/
+@media screen and (max-width: 419px){
+  nav ul li {
+    font-size: .9em;
+  }
 }
 
 /* Homepage Styling */
@@ -270,9 +283,9 @@ because the images look better in a wider container*/
 
 /*This centers the cards on the last row because there are 2 members
 instead of 3*/
-#last-row{
+/*#last-row{
   padding: 1em 10em;
-}
+}*/
 
 .former-members{
   text-align: center;
@@ -284,14 +297,14 @@ instead of 3*/
 }
 
 #founding-members{
-  font-size: .9em;
+  font-size: .8em;
   color: #000;
 }
 
 /* Members page media queries */
 @media screen and (max-width: 1000px){
   .members-container{
-    width: 100%;
+    width: inherit;
     margin: 0;
   }
 }
