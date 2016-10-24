@@ -103,13 +103,14 @@ nav ul li{
   padding-bottom: 0;
 }
 
-/* Nav bar media queries */
+/* Nav bar media queries larger to smaller screen size */
 
 @media screen and (min-width: 931px) and (max-width: 1000px){
-  /* decrease height as width shrinks */
+  /* decrease height of nav bar as width shrinks */
   .top-nav{
     height: 10em;
   }
+
   /* Shrink SnP title as screen shrinks */
   .nav-title{
     width: 35%;
@@ -166,6 +167,35 @@ nav ul li{
     padding: 2.5em 1em;
     font-size: 1em;
   }
+
+}
+
+@media screen and (max-width: 765px){
+  .top-nav{
+    height: 8em;
+  }
+
+  .nav-title{
+    text-align: center;
+    padding: 0;
+  }
+
+  .nav-title > * {
+    width: 100%;
+    padding: 1em;
+  }
+
+  .nav-title p {
+    letter-spacing: .08em;
+    padding-left: 3.2em;
+  }
+
+  nav ul, .right{
+    float: none;
+    width: 100%;
+    display: block;
+  }
+
 
 }
 
