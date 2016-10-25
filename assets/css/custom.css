@@ -205,10 +205,25 @@ nav ul li{
 
 }
 
-/*more mobile resizing*/
+/*more mobile nav resizing*/
 @media screen and (max-width: 419px){
   nav ul li {
     font-size: .9em;
+  }
+}
+
+/*more mobile nav resizing*/
+@media screen and (max-width: 360px){
+  .nav-title h1{
+    padding: .5em 0 0 .5em;
+  }
+
+  .nav-title p {
+    padding: .5em 0 0 2em;
+  }
+
+  nav ul li {
+    font-size: .7em;
   }
 }
 
