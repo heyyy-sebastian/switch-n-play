@@ -174,7 +174,7 @@ nav ul li{
   #body-container {
     overflow: hidden;
   }
-  
+
   .top-nav{
     height: 8em;
   }
@@ -317,11 +317,6 @@ because the images look better in a wider container*/
   padding: 1em;
 }
 
-/*This centers the cards on the last row because there are 2 members
-instead of 3*/
-/*#last-row{
-  padding: 1em 10em;
-}*/
 
 .former-members{
   text-align: center;
@@ -587,6 +582,55 @@ footer{
 /*This sets the hover state of <a> tags for the top nav and the footer <a> tags*/
 nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
   color: #8c9eff;
+}
+
+/* Responsive footer rules */
+/* depending on breakpoints, this could be refactored to be part of the 
+responsive navbar media queries */
+@media screen and (max-width: 765px){
+
+  #footer-wrapper{
+    height: auto;
+  }
+
+  .footer-heading {
+    padding: 1em 0 0 1.5em;
+    width: auto;
+    float: none;
+    margin: 0;
+  }
+
+  .footer-heading h1 {
+    font-size: 2.5em;
+  }
+
+  .footer-heading p {
+    margin: .5em 0;
+  }
+
+  .footer-links {
+    width: auto;
+    padding: 0 0 .3em 1.5em;
+    margin: 0;
+  }
+
+  .footer-links h2 {
+    display: none;
+  }
+
+  .footer-links ul {
+    margin-top: .2em;
+  }
+
+  .footer-links ul * {
+    margin: 1em 0;
+    line-height: 65%;
+  }
+
+  .footer-copyright{
+    padding: .25em 1.5em;
+  }
+
 }
 
 /*footer a:visited{
