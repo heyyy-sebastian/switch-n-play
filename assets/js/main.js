@@ -4,25 +4,32 @@ $(document).ready(function(){
 
   $(document).on('click.card', '.card', function (e) {
       console.log("clicked");
+                debugger;
+      //AT THIS POINT IN THE FUNCTION 'e' is the EVENT
 
-      if ($(this).find('> .card-reveal')) {
-
+      if ($(this).find('.card-reveal')) {
+        //so once the click event is recognized, find the card-reveal class
+        //if the card-reveal class returns true, show the card
+        //using the following if-else statement -- but do we really need it?
+        //probably can be simplified
         console.log("found the card-reveal");
 
-        //this function isn't hitting the classes below, which is
-        //preventing the info from sliding up
+        // may need to rework these classes
+        
         if ($(e.target).is($('.card-reveal .card-title')) ||
           $(e.target).is($('.card-reveal .card-title i'))) {
           console.log("found the card-reveal icon");
+          //AT THIS POINT IN THE FUNCTION 'this' IS THE WHOLE CARD
+
           // Make Reveal animate down and display none
           //look up .velocity in jQuery docs > this is a plugin imported
           //in the materialize docs
-          var foundTheCard = $(this).find('.card-reveal');
-          console.log(foundTheCard);
+        
+
           $(this).find('.card-reveal').velocity(
             {translateY: 0}, {
               duration: 225,
-              queue: false;
+              queue: false,
               easing: 'easeInOutQuad',
               complete: function() { $(this).css({ display: 'none'}); }
             }

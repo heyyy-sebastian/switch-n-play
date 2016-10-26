@@ -20,6 +20,7 @@ The goal of this redesign is to make a cleaner, mobile-friendly version of the s
 ###NavBar
 - Add color to li for active pg
 - Reposition down arrow on mobile sizes
+- Color of dropdown box
 
 ###Landing Page
 - Image carousel
