@@ -103,149 +103,6 @@ nav ul li{
   padding-bottom: 0;
 }
 
-/* Nav bar media queries larger to smaller screen size */
-
-@media screen and (min-width: 931px) and (max-width: 1000px){
-  /* decrease height of nav bar as width shrinks */
-  .top-nav{
-    height: 10em;
-  }
-
-  /* Shrink SnP title as screen shrinks */
-  .nav-title{
-    width: 35%;
-  }
-
-  .nav-title h1{
-    font-size: 3.4em;
-    padding: .5em 0 0 1em;
-  }
-
-  .nav-title p{
-    padding: .75em 0 0 4.5em;
-    font-size: .9em;
-  }
-
-  /* increase width of menu items */
-  nav ul{
-    width: 60%;
-  }
-}
-
-@media screen and (max-width: 930px){
-  .top-nav{
-    height: 9em;
-  }
-
-  nav ul{
-    width: 55%;
-    padding: .6em .8em;
-  }
-
-  .nav-title{
-    padding-left: 1em;
-    margin: 0 auto;
-  }
-
-  /* Shrink SnP title as screen shrinks */
-
-  .nav-title h1{
-    font-size: 2.8em;
-    padding: .6em 0 0 1em;
-  }
-
-  .nav-title p{
-    padding: .5em 0 0 2.5em;
-    font-size: .9em;
-  }
-
-  ul{
-    padding: 0;
-  }
-
-  nav ul li{
-    padding: 2.5em 1em;
-    font-size: 1em;
-  }
-
-}
- /* screens smaller than iPads */
-@media screen and (max-width: 765px){
-  #body-container {
-    overflow: hidden;
-  }
-
-  .top-nav{
-    height: 8em;
-  }
-
-  .nav-title{
-    text-align: center;
-    padding: 0 0 1em;
-  }
-
-  .nav-title > * {
-    width: 100%;
-    padding: 1em;
-  }
-
-  .nav-title p {
-    letter-spacing: .08em;
-    padding-left: 3.2em;
-  }
-
-  nav ul {
-    width: 100%;
-    display: block;
-    margin: 0 0  1em;
-    padding: 0;
-    background-color: #3F51B5;
-    height: 3em;
-  }
-
-  nav ul li{
-    padding: 1em;
-  }
-
-}
-
-/*more mobile nav resizing*/
-@media screen and (max-width: 419px){
-
-  .top-nav{
-    text-align: center;
-  }
-
-  .nav-title {
-    float: none;
-  }
-
-  .nav-title h1{
-    padding: .35em 0 0 0;
-  }
-
-  .nav-title p {
-    padding: .5em 0 0 0;
-  }
-
-  nav ul li {
-    font-size: .9em;
-  }
-
-}
-
-/*more mobile nav resizing*/
-@media screen and (max-width: 360px){
-  nav ul {
-    height: 2.5em;
-  }
-
-  nav ul li {
-    padding: .8em;
-    font-size: .8em;
-  }
-
-}
 
 
 /* Homepage Styling */
@@ -584,17 +441,117 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
   color: #8c9eff;
 }
 
-/* Responsive footer rules */
-/* depending on breakpoints, this could be refactored to be part of the 
-responsive navbar media queries */
-@media screen and (max-width: 765px){
+/* MEDIA QUERIES */
+/* Nav bar media queries larger to smaller screen size */
 
-  #footer-wrapper{
+@media screen and (min-width: 931px) and (max-width: 1000px){
+  /* decrease height of nav bar as width shrinks */
+  .top-nav{
+    height: 10em;
+  }
+
+  .nav-title{
+    width: 35%;
+  }
+
+  .nav-title h1{
+    font-size: 3.4em;
+    padding: .5em 0 0 1em;
+  }
+
+  .nav-title p{
+    padding: .75em 0 0 4.5em;
+    font-size: .9em;
+  }
+
+  nav ul{
+    width: 60%;
+  }
+}
+
+/* iPad size to 930px width browser window */
+@media screen and (max-width: 930px){
+  .top-nav{
+    height: 9em;
+  }
+
+  nav ul{
+    width: 55%;
+    padding: .6em .8em;
+  }
+
+  .nav-title{
+    padding-left: 1em;
+    margin: 0 auto;
+  }
+
+  .nav-title h1{
+    font-size: 2.8em;
+    padding: .6em 0 0 1em;
+  }
+
+  .nav-title p{
+    padding: .5em 0 0 2.5em;
+    font-size: .9em;
+  }
+
+  ul{
+    padding: 0;
+  }
+
+  nav ul li{
+    padding: 2.5em 1em;
+    font-size: 1em;
+  }
+
+}
+
+ /* screens smaller than iPads */
+@media screen and (max-width: 765px){
+  #body-container {
+    overflow: hidden;
+  }
+
+  /* RESPONSIVE NAVBAR */
+  .top-nav{
+    height: 8em;
+  }
+
+  .nav-title{
+    text-align: center;
+    padding: 0 0 1em;
+  }
+
+  .nav-title > * {
+    width: 100%;
+    padding: 1em;
+  }
+
+  .nav-title p {
+    letter-spacing: .08em;
+    padding-left: 3.2em;
+  }
+
+  nav ul {
+    width: 100%;
+    display: block;
+    margin: 0 0  1em;
+    padding: 0;
+    background-color: #3F51B5;
+    height: 3em;
+  }
+
+  nav ul li{
+    padding: 1em;
+  }
+
+  /* RESPONSIVE FOOTER */
+   #footer-wrapper{
     height: auto;
   }
 
   .footer-heading {
-    padding: 1em 0 0 1.5em;
+    padding: 1em 0 0 2em;
     width: auto;
     float: none;
     margin: 0;
@@ -610,7 +567,7 @@ responsive navbar media queries */
 
   .footer-links {
     width: auto;
-    padding: 0 0 .3em 1.5em;
+    padding: 0 0 .3em 2em;
     margin: 0;
   }
 
@@ -628,10 +585,49 @@ responsive navbar media queries */
   }
 
   .footer-copyright{
-    padding: .25em 1.5em;
+    padding: .25em 2em;
   }
 
 }
+
+/*more mobile nav resizing*/
+@media screen and (max-width: 419px){
+
+  .top-nav{
+    text-align: center;
+  }
+
+  .nav-title {
+    float: none;
+  }
+
+  .nav-title h1{
+    padding: .35em 0 0 0;
+  }
+
+  .nav-title p {
+    padding: .5em 0 0 0;
+  }
+
+  nav ul li {
+    font-size: .9em;
+  }
+
+}
+
+/*more mobile nav resizing*/
+@media screen and (max-width: 360px){
+  nav ul {
+    height: 2.5em;
+  }
+
+  nav ul li {
+    padding: .8em;
+    font-size: .8em;
+  }
+
+}
+
 
 /*footer a:visited{
   color: #8c9eff;
