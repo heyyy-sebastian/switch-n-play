@@ -162,11 +162,11 @@ because the images look better in a wider container*/
   margin: 0 auto;
   background: #7986cb;
   padding: 1em;
+  text-align: center;
 }
 
 #members-title{
   text-transform: uppercase;
-  margin-left: 1.7em;
 }
 
 .row{

@@ -1,10 +1,10 @@
 $(document).ready(function(){
+  //verify jquery is loaded
   console.log("ready!")
 
 
   $(document).on('click.card', '.card', function (e) {
       console.log("clicked");
-                debugger;
       //AT THIS POINT IN THE FUNCTION 'e' is the EVENT
 
       if ($(this).find('.card-reveal')) {
@@ -12,12 +12,14 @@ $(document).ready(function(){
         //if the card-reveal class returns true, show the card
         //using the following if-else statement -- but do we really need it?
         //probably can be simplified
+        var testVar = $(this).find('.card-reveal');
+        console.log(testVar);
         console.log("found the card-reveal");
-
         // may need to rework these classes
-        
+
         if ($(e.target).is($('.card-reveal .card-title')) ||
-          $(e.target).is($('.card-reveal .card-title i'))) {
+          $(e.target).is($('.card-reveal .card-title i')) || 
+          $(e.target).is(this)) {
           console.log("found the card-reveal icon");
           //AT THIS POINT IN THE FUNCTION 'this' IS THE WHOLE CARD
 
