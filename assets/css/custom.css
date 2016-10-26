@@ -171,6 +171,10 @@ nav ul li{
 }
  /* screens smaller than iPads */
 @media screen and (max-width: 765px){
+  #body-container {
+    overflow: hidden;
+  }
+  
   .top-nav{
     height: 8em;
   }
@@ -207,33 +211,42 @@ nav ul li{
 
 /*more mobile nav resizing*/
 @media screen and (max-width: 419px){
+
+  .top-nav{
+    text-align: center;
+  }
+
+  .nav-title {
+    float: none;
+  }
+
+  .nav-title h1{
+    padding: .35em 0 0 0;
+  }
+
+  .nav-title p {
+    padding: .5em 0 0 0;
+  }
+
   nav ul li {
     font-size: .9em;
   }
+
 }
 
 /*more mobile nav resizing*/
 @media screen and (max-width: 360px){
-  #body-container {
-    overflow:hidden;
-  }
-  
-  .nav-title h1{
-    padding: .5em 0 0 .5em;
-  }
-
-  .nav-title p {
-    padding: .5em 0 0 2em;
+  nav ul {
+    height: 2.5em;
   }
 
   nav ul li {
+    padding: .8em;
     font-size: .8em;
   }
+
 }
 
-@media screen and (max-width: 320px){
-  
-}
 
 /* Homepage Styling */
 .container{
