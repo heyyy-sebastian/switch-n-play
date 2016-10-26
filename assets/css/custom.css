@@ -214,6 +214,10 @@ nav ul li{
 
 /*more mobile nav resizing*/
 @media screen and (max-width: 360px){
+  #body-container {
+    overflow:hidden;
+  }
+  
   .nav-title h1{
     padding: .5em 0 0 .5em;
   }
@@ -225,6 +229,10 @@ nav ul li{
   nav ul li {
     font-size: .8em;
   }
+}
+
+@media screen and (max-width: 320px){
+  
 }
 
 /* Homepage Styling */
