@@ -618,9 +618,9 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
 
 }
 
-/*more mobile nav resizing*/
-@media screen and (max-width: 419px){
-
+/* more mobile responsive resizing */
+@media screen and (max-width: 420px){
+  /* nav bar resizing */
   .top-nav{
     text-align: center;
   }
@@ -639,6 +639,11 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
 
   nav ul li {
     font-size: .9em;
+  }
+
+  /* about the collective */
+  .about-container {
+    padding: 0 1.7em;
   }
 
 }
