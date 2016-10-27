@@ -539,10 +539,6 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
     text-align: center;
   }
 
-  .about-container > p:nth-child(3) {
-    text-indent: 2em;
-  }
-
   /* RESPONSIVE NAVBAR */
   .top-nav{
     height: 8em;
@@ -600,6 +596,7 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
     width: auto;
     padding: 0 0 .3em 2em;
     margin: 0;
+    display: block;
   }
 
   .footer-links h2 {
