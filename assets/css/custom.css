@@ -125,7 +125,7 @@ nav ul li{
   }
 }
 
-/*About Page Styling*/
+/*About the collective Page Styling*/
 
 .about-container{
   padding: 1em 4em;
@@ -151,6 +151,15 @@ nav ul li{
 
 .about-container a:hover{
   text-decoration: underline;
+}
+
+.group-photo-container {
+  text-align:center;
+}
+
+.group-photo {
+  height: auto;
+  width: calc(80%);
 }
 
 /*Members Page*/
@@ -537,6 +546,12 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
   .about-container h1 {
     padding-top: 2.8em;
     text-align: center;
+    font-size: 1.4em;
+  }
+
+  .group-photo {
+    height: auto;
+    width: calc(100%);
   }
 
   /* RESPONSIVE NAVBAR */
@@ -648,8 +663,9 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
 
 }
 
-/*more mobile nav resizing*/
+/*more mobile resizing*/
 @media screen and (max-width: 360px){
+  /* nav bar */
   nav ul {
     height: 2.5em;
   }
@@ -659,6 +675,11 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
     font-size: .8em;
   }
 
+  /* about the collective page*/
+  .about-container p {
+    font-size: 1em;
+  }
+  
 }
 
 
