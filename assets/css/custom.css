@@ -189,14 +189,6 @@ because the images look better in a wider container*/
   color: #000;
 }
 
-/* Members page media queries */
-@media screen and (max-width: 1000px){
-  .members-container{
-    width: inherit;
-    margin: 0;
-  }
-}
-
 /* CARDS */
 /*Based on Google's Materialize Cards from the Materialize docs lines 4529-4663*/
 .card {
@@ -467,10 +459,23 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
   nav ul{
     width: 60%;
   }
+
+}
+
+/* CONTENT CONTAINERS */
+  /* remove gutters */
+
+@media screen and (max-width: 1000px){
+  .members-container {
+    width: inherit;
+    margin: 0;
+    overflow: hidden;
+  }
 }
 
 /* iPad size to 930px width browser window */
 @media screen and (max-width: 930px){
+  /* RESPONSIVE NAVBAR */
   .top-nav{
     height: 9em;
   }
@@ -504,12 +509,38 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
     font-size: 1em;
   }
 
+  /* about-the-collective responsive stuff */
+  .about-container {
+    width: inherit;
+    margin: 0;
+    padding: 0 3em;
+  }
+
+  .about-container h1 {
+    padding-top: 1.5em;
+    margin: 0;
+  }
+
+  #body-container {
+    background-color: #fff;
+  }
+
 }
 
  /* screens smaller than iPads */
 @media screen and (max-width: 765px){
   #body-container {
     overflow: hidden;
+  }
+
+  /* about the collective */
+  .about-container h1 {
+    padding-top: 2.8em;
+    text-align: center;
+  }
+
+  .about-container > p:nth-child(3) {
+    text-indent: 2em;
   }
 
   /* RESPONSIVE NAVBAR */
