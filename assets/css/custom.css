@@ -113,8 +113,8 @@ nav ul li{
 }
 
 .img-resize{
-  height: 38em;
-  width: 63em;
+  height: auto;
+  width: calc(80%);
   margin: 0 auto;
 }
 

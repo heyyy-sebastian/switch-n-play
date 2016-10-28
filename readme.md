@@ -30,6 +30,7 @@ The goal of this redesign is to make a cleaner, mobile-friendly version of the s
 
 ###Landing Page
 - Image carousel
+- [http://kenwheeler.github.io/slick/|http://kenwheeler.github.io/slick/]
 
 ###Contact Page
 - Add social Media Icons (Instagram, Facebook)
