@@ -7,8 +7,8 @@ The goal of this redesign is to make a cleaner, mobile-friendly version of the s
 
 ##To-Do
 ###Global Changes
-- Implement mobile breakpoints across all pages
-- Implement more robust CSS browser resets
+- Implement mobile breakpoints across all pages //Friday 28 Oct
+- [DONE] Implement more robust CSS browser resets -- this actually wasn't necessary because the necessary resets are in the global settings in custom.css
 - Make sure all a tags are updated and point to the right page
 - See if there's a way to make the dropdown menu less shakey?
 - [DONE] Obsessively comment all of my code so Mary & Meke know what stuff does
@@ -21,6 +21,9 @@ The goal of this redesign is to make a cleaner, mobile-friendly version of the s
 - Add color to li for active pg
 - Reposition down arrow on mobile sizes
 - Color of dropdown box
+
+###Footer
+- indent SnP logo a bit on larger screen sizes //Friday 28 Oct
 
 ###Landing Page
 - Image carousel
@@ -43,4 +46,4 @@ The goal of this redesign is to make a cleaner, mobile-friendly version of the s
 - If IG API is a no-go, add photo gallery
 
 ###About the Collective Page
-- Embed group image in within the text
+- [DONE] Embed group image in within the text
