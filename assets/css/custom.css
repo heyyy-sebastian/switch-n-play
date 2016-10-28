@@ -362,21 +362,21 @@ span{
 }
 
 #upcoming-shows-title{
-  margin: 2em 0 0;
+  margin: 1em 0 0;
   text-align: center;
 }
 
 .upcoming-shows{
   display: inline-block;
-  width: 45%;
+  width: 44%;
   text-align: center;
   margin: 1em;
   padding-bottom: 2.5em;
 }
 
 .upcoming-shows img{
-  height: 30em;
-  width: 22em;
+  height: auto;
+  width: calc(90%);
 }
 
 /*Media Page*/
@@ -562,6 +562,12 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
   .group-photo {
     height: auto;
     width: calc(100%);
+  }
+
+  /* shows */
+  .upcoming-shows {
+    display: block;
+    width: auto;
   }
 
   /* RESPONSIVE NAVBAR */
