@@ -16,14 +16,17 @@ The goal of this redesign is to make a cleaner, mobile-friendly version of the s
 - Sticky header
 - Add pg-to-pg transition animation
 - Cross-browser testing
+- Figure out why none of the titles on the section pgs will center???
 
 ###NavBar
 - Add color to li for active pg
 - Reposition down arrow on mobile sizes
 - Color of dropdown box
+- Center SnP title on smaller screen sizes
+- Indent SnP title on largest screen sizes
 
 ###Footer
-- indent SnP logo a bit on larger screen sizes //Friday 28 Oct
+- [DONE] indent SnP logo a bit on larger screen sizes //Friday 28 Oct
 
 ###Landing Page
 - Image carousel

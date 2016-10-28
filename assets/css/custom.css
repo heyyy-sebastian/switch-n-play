@@ -445,6 +445,17 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
 /* MEDIA QUERIES */
 /* Nav bar media queries larger to smaller screen size */
 
+/* nav bar/footer alignment for larger screen sizes */
+@media screen and (min-width: 1000px){
+    .footer-heading {
+      padding-left: 7em;
+    }
+
+    .footer-copyright{
+      padding: .25em 8em;
+    }
+}
+
 @media screen and (min-width: 931px) and (max-width: 1000px){
   /* decrease height of nav bar as width shrinks */
   .top-nav{
@@ -478,7 +489,6 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
   .members-container {
     width: inherit;
     margin: 0;
-    overflow: hidden;
   }
 }
 
