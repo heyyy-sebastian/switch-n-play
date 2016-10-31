@@ -344,7 +344,7 @@ span.card-title.divina{
 
 /* Contact page */
 #contact-pg{
-  min-height: 36em;
+  min-height: 28em;
 }
 
 span{
@@ -352,7 +352,12 @@ span{
 }
 
 .connect-div{
-  margin-top: 4em;
+  margin-top: 2em;
+  padding-bottom:1.5em;
+}
+
+.connect-div h1{
+  padding:0;
 }
 
 /* Shows */
@@ -548,6 +553,15 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
 
   #body-container {
     background-color: #fff;
+  }
+
+  /* contact page
+  .connect-div{
+  margin-top: 2em;
+  }*/
+
+  .connect-div h1 {
+    padding: 0;
   }
 
 }
