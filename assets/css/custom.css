@@ -364,6 +364,7 @@ span{
 #upcoming-shows-title{
   margin: 1em 0 0;
   text-align: center;
+  padding: 0;
 }
 
 .upcoming-shows{
@@ -490,6 +491,11 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
     width: inherit;
     margin: 0;
   }
+
+  #see-snp-title{
+    padding-top: 1.1em;
+  }
+
 }
 
 /* iPad size to 930px width browser window */
@@ -565,6 +571,10 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
   }
 
   /* shows */
+  #see-snp-title{
+    padding-top: 2em;
+  }
+
   .upcoming-shows {
     display: block;
     width: auto;
