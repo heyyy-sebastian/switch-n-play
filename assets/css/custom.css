@@ -555,10 +555,7 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
     background-color: #fff;
   }
 
-  /* contact page
-  .connect-div{
-  margin-top: 2em;
-  }*/
+  /* contact page*/
 
   .connect-div h1 {
     padding: 0;
@@ -593,6 +590,16 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
     display: block;
     width: auto;
   }
+
+  /* contact */
+  #contact-pg > h1 {
+    padding-top: 3em;
+  }
+
+  .connect-div h1 {
+    padding: 0;
+  }
+
 
   /* RESPONSIVE NAVBAR */
   .top-nav{
