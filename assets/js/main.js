@@ -2,6 +2,11 @@ $(document).ready(function(){
   //verify jquery is loaded
   console.log("ready!")
 
+  //image slider
+  $('.index-carousel').slick({
+    //add values here
+  });
+
 
   $(document).on('click.card', '.card', function (e) {
       console.log("clicked");
