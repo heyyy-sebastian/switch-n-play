@@ -21,7 +21,7 @@ The goal of this redesign is to make a cleaner, mobile-friendly version of the s
 ###NavBar
 - Add color to li for active pg
 - Reposition down arrow on mobile sizes
-- Color of dropdown box
+- Color of dropdown box on mboile sizes
 - Center SnP title on smaller screen sizes
 - Indent SnP title on largest screen sizes
 
@@ -37,15 +37,15 @@ The goal of this redesign is to make a cleaner, mobile-friendly version of the s
 - "Like Us on Facebook" button
 
 ###Members Page
-* Photo shoot w Fuschia: Nov 13
+>>> Photo shoot w Fuschia: Nov 13
 - Pop-Up functionality for bio paragraph: should slide up over image on click
 - [DONE] Add list of former/founding members
-- Add current performer bios
-- Adjust proportions of some of the performer photos so they're less warped
+- Add current performer bios >>> need from M
+- Adjust proportions of some of the performer photos so they're less warped >>> need from M
 
 ###Media Page
-- Press Section with links to news articles
-- Awards section
+- Press Section with links to news articles >>> need from M
+- Awards section >>> need from M
 - Research if Instagram feed can be added from IG API
 - If IG API is a no-go, add photo gallery
 
