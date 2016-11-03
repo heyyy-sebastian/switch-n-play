@@ -22,7 +22,7 @@ The goal of this redesign is to make a cleaner, mobile-friendly version of the s
 - Add color to li for active pg
 - Reposition down arrow on mobile sizes
 - Color of dropdown box on mboile sizes
-- Center SnP title on smaller screen sizes
+- [DONE] Center SnP title on smaller screen sizes
 - Indent SnP title on largest screen sizes
 
 ###Footer
