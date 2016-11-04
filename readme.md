@@ -21,9 +21,9 @@ The goal of this redesign is to make a cleaner, mobile-friendly version of the s
 ###NavBar
 - Add color to li for active pg
 - Reposition down arrow on mobile sizes
-- Color of dropdown box on mboile sizes
+- Color of dropdown box on mobile sizes
 - [DONE] Center SnP title on smaller screen sizes
-- Indent SnP title on largest screen sizes
+- [DONE] Indent SnP title on largest screen sizes
 
 ###Footer
 - [DONE] indent SnP logo a bit on larger screen sizes //Friday 28 Oct

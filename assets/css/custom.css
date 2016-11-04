@@ -449,7 +449,20 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
 }
 
 /* MEDIA QUERIES */
-/* Nav bar media queries larger to smaller screen size */
+/* media queries go from larger to smaller screen size */
+
+/* nav bar adjustments for extra-large screen sizes */
+@media screen and (min-width: 1450px){
+  .top-nav {
+    padding: 0 10%;
+  }
+}
+
+@media screen and (min-width: 1200px){
+  .nav-title {
+    padding-left: 3.5%;
+  }
+}
 
 /* nav bar/footer alignment for larger screen sizes */
 @media screen and (min-width: 1000px){
@@ -461,6 +474,8 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
       padding: .25em 8em;
     }
 }
+
+/* medium screen sizes */
 
 @media screen and (min-width: 931px) and (max-width: 1000px){
   /* decrease height of nav bar as width shrinks */
