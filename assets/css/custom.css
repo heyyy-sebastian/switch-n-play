@@ -649,6 +649,14 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
     padding: 1em;
   }
 
+  .sub-menu {
+    background: #5C6BC0;
+  }
+
+  .sub-menu li a:hover {
+    color: #1a237e;
+  }
+
   /* RESPONSIVE FOOTER */
    #footer-wrapper{
     height: auto;
