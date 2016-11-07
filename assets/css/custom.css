@@ -726,6 +726,10 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
     font-size: .9em;
   }
 
+   ul.sub-menu {
+    left: 0em;
+  }
+
   /* about the collective */
   .about-container {
     padding: 0 1.7em;
