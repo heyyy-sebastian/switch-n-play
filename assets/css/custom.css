@@ -554,6 +554,10 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
     font-size: 1em;
   }
 
+  .material-icons{
+    line-height: .9;
+  }
+
   /* about-the-collective responsive stuff */
   .about-container {
     width: inherit;
@@ -728,6 +732,10 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
 
    ul.sub-menu {
     left: 0em;
+  }
+
+  .material-icons{
+    line-height: .8;
   }
 
   /* about the collective */

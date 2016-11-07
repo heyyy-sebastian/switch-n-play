@@ -20,7 +20,7 @@ The goal of this redesign is to make a cleaner, mobile-friendly version of the s
 
 ###NavBar
 - Add color to li for active pg
-- Reposition down arrow on mobile sizes
+- [DONE] Reposition down arrow on mobile sizes
 - [DONE] Color of dropdown box on mobile sizes
 - [DONE] Center SnP title on smaller screen sizes
 - [DONE] Indent SnP title on largest screen sizes
@@ -37,7 +37,7 @@ The goal of this redesign is to make a cleaner, mobile-friendly version of the s
 - "Like Us on Facebook" button
 
 ###Members Page
->>> Photo shoot w Fuschia: Nov 13
+//Photo shoot w Fuschia: Nov 13//
 - Pop-Up functionality for bio paragraph: should slide up over image on click
 - [DONE] Add list of former/founding members
 - Add current performer bios >>> need from M
