@@ -19,7 +19,7 @@ The goal of this redesign is to make a cleaner, mobile-friendly version of the s
 - Figure out why none of the titles on the section pgs will center???
 
 ###NavBar
-- Add color to li for active pg
+- Add color to li for active pg //currently commented out
 - [DONE] Reposition down arrow on mobile sizes
 - [DONE] Color of dropdown box on mobile sizes
 - [DONE] Center SnP title on smaller screen sizes

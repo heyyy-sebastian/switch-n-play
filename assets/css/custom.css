@@ -112,10 +112,13 @@ nav ul li{
   overflow: hidden;
 }
 
+.homepage-carousel div {
+  display: inline-block;
+}
+
 .img-resize{
   height: auto;
-  width: calc(80%);
-  margin: 0 auto;
+  width: calc(90%);
 }
 
 /* Homepage media queries */

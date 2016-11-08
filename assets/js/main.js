@@ -3,9 +3,24 @@ $(document).ready(function(){
   console.log("ready!")
 
   //image slider
-  $('.index-carousel').slick({
-    //add values here
-  });
+  //I was going to use the Slick plugin I found
+  //but generally I like to think I could make 
+  //something leaner
+
+  //set Index at 0
+  var currentIndex = 0
+  //set the photos to a var to hide them
+  var carouselImages = $('.homepage-carousel div')
+
+//define function to cycle through images
+  function cycleImages(currentIndex){
+    var currentImg =
+    if (currentIndex == currentImg){
+
+    }
+
+
+  }
 
 
   $(document).on('click.card', '.card', function (e) {
