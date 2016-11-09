@@ -7,6 +7,18 @@ $(document).ready(function(){
   //but generally I like to think I could make 
   //something leaner
 
+  //when page is loaded
+  //start autoplay
+    //move images left based on img width
+    //remove image from list
+    //append image to end of list
+    //start cycle over
+  //UNLESS arrow clicked
+    //if forward arrow is clicked, 
+        //move images to left
+    //if back arrow is clicked,
+        //move images to right
+
   //set Index at 0
   var currentIndex = 0
   //set the photos to a var to hide them
