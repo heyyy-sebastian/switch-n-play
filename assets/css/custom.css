@@ -112,8 +112,22 @@ nav ul li{
   overflow: hidden;
 }
 
-.homepage-carousel div {
-  display: inline-block;
+.homepage-carousel{
+  overflow: hidden;
+  width: 100%;
+}
+
+.homepage-carousel ul {
+  width: 50%;
+  padding: 0;
+  margin: 0;
+}
+
+.homepage-carousel ul li {
+  width: 100%;
+  text-align: center;
+  height: auto;
+  float: left;
 }
 
 .img-resize{
