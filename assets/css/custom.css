@@ -118,21 +118,22 @@ nav ul li{
 }
 
 .homepage-carousel ul {
-  width: 50%;
+  overflow: hidden;
   padding: 0;
   margin: 0;
 }
 
 .homepage-carousel ul li {
-  width: 100%;
+  width: 16.66%;
   text-align: center;
   height: auto;
   float: left;
+  display: inline-block;
 }
 
 .img-resize{
   height: auto;
-  width: calc(90%);
+  width: calc(100%);
 }
 
 /* Homepage media queries */
