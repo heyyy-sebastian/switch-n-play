@@ -2,37 +2,16 @@ $(document).ready(function(){
   //verify jquery is loaded
   console.log("ready!")
 
-  //image slider
-  //I was going to use the Slick plugin I found
-  //but generally I like to think I could make 
-  //something leaner
-
-  //when page is loaded
-  //start autoplay
-    //move images left based on img width
-    //remove image from list
-    //append image to end of list
-    //start cycle over
-  //UNLESS arrow clicked
-    //if forward arrow is clicked, 
-        //move images to left
-    //if back arrow is clicked,
-        //move images to right
-
-  //set Index at 0
-  var currentIndex = 0
-  //set the photos to a var to hide them
-  var carouselImages = $('.homepage-carousel div')
-
-//define function to cycle through images
-  function cycleImages(currentIndex){
-    var currentImg =
-    if (currentIndex == currentImg){
-
-    }
-
-
-  }
+  //intialize slick slider
+  $('.homepage-carousel').slick({
+    slidesToShow: 3,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 2000,
+    dots: true,
+    arrows: true
+  })
+  
 
 
   $(document).on('click.card', '.card', function (e) {
