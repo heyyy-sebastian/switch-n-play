@@ -2,7 +2,7 @@ $(document).ready(function(){
   //verify jquery is loaded
   console.log("ready!")
 
-  //intialize slick slider
+  //intialize slick slider for homepage
   $('.homepage-carousel').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -13,8 +13,8 @@ $(document).ready(function(){
   })
 
   //Smooth scrolling for internal links on media pg
-//Credit: https://paulund.co.uk/smooth-scroll-to-internal-links-with-jquery
-$('a[href^="#"]').on('click',function (e) {
+  //Credit: https://paulund.co.uk/smooth-scroll-to-internal-links-with-jquery
+  $('a[href^="#"]').on('click',function (e) {
       e.preventDefault();
 
       var target = this.hash;
@@ -25,7 +25,28 @@ $('a[href^="#"]').on('click',function (e) {
       }, 900, 'swing', function () {
           window.location.hash = target;
       });
-  });
+  }); //end smooth scrolling
+
+  // Photo Gallery functionality for media pg
+  	 //Show photos after first row on click
+  	$('.more-photos').click(function(){
+     	$(".photo-gallery div:nth-child(n+3)").slideToggle('slow');
+  		}
+	); //end photo expansion
+
+
+  //Swap out View More/View Less photos on click
+	$('.more-shows').on("click", function() {
+  		var el = $(this);
+  		if (el.text() == el.data("text-swap")) {
+    		el.text(el.data("text-original"));
+  		} else {
+    		el.data("text-original", el.text());
+    		el.text(el.data("text-swap"));
+  		}
+	});//end text swap
+  
+
 
   $(document).on('click.card', '.card', function (e) {
       console.log("clicked");
@@ -73,22 +94,6 @@ $('a[href^="#"]').on('click',function (e) {
       $('.card-reveal').closest('.card').css('overflow', 'hidden');
 
     });
-
-//Members Page
-//Artist bio slides up over photo on click
-  // $('.card-content').click(function() {
-
-  //     console.log("clicked");
-  //     //add active state to expanded info
-  //     var $active = $('.card-reveal').find('.active');
-
-  //   //show extra info
-  //    $('.card-reveal').stop().slideDown("slow").addClass('active');
-
-  //   //hide extra info again
-  //   $('.card-reveal active').stop().slideUp().removeClass('active');
-
-  // });
 
 
 })//end wrapper function
