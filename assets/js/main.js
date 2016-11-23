@@ -30,13 +30,13 @@ $(document).ready(function(){
   // Photo Gallery functionality for media pg
   	 //Show photos after first row on click
   	$('.more-photos').click(function(){
-     	$(".photo-gallery div:nth-child(n+3)").slideToggle('slow');
+     	$(".photo-gallery img:nth-child(n+4)").slideToggle('slow');
   		}
 	); //end photo expansion
 
 
   //Swap out View More/View Less photos on click
-	$('.more-shows').on("click", function() {
+	$('.more-photos').on("click", function() {
   		var el = $(this);
   		if (el.text() == el.data("text-swap")) {
     		el.text(el.data("text-original"));
