@@ -14,10 +14,8 @@ $(document).ready(function(){
 
   //Smooth scrolling for internal links on media pg
   //Credit: https://paulund.co.uk/smooth-scroll-to-internal-links-with-jquery
-  var sectionJump = $('a[href^="#media"]') && $('.section-jump')
-
-  if(sectionJump){
-  	$(sectionJump).on('click',function (e) {
+  
+  	$('.section-jump').on('click',function (e) {
 
       	e.preventDefault();
 
@@ -30,7 +28,6 @@ $(document).ready(function(){
           window.location.hash = target;
       	});
   	}); 
-  }
   //end smooth scrolling
 
   // Photo Gallery functionality for media pg
