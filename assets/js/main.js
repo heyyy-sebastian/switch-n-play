@@ -37,9 +37,15 @@ $(document).ready(function(){
   		}
 	); //end photo expansion
 
+	//Photo-Gallery pop-ups
+	$('#photo-1').click(function(){
+		$(this).css('display','visible');
+		}
+	);
+
 
   //Swap out View More/View Less photos on click
-	$('.more-photos').on("click", function() {
+	$('.more-photos').click(function() {
   		var el = $(this);
   		if (el.text() == el.data("text-swap")) {
     		el.text(el.data("text-original"));
