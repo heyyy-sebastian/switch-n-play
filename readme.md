@@ -51,6 +51,7 @@ The goal of this redesign is to make a cleaner, mobile-friendly version of the s
 	* [https://www.instagram.com/developer/embedding/]
 	* [http://www.instush.com/embed]
 - Popup tutorial: [http://demos.jquerymobile.com/1.4.5/popup/]
+- Popup plugin: [http://dimsemenov.com/plugins/magnific-popup/]
 
 ###About the Collective Page
 - [DONE] Embed group image in within the text
