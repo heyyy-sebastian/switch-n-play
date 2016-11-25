@@ -14,23 +14,29 @@ $(document).ready(function(){
 
   //Smooth scrolling for internal links on media pg
   //Credit: https://paulund.co.uk/smooth-scroll-to-internal-links-with-jquery
-  $('a[href^="#"]').on('click',function (e) {
-      e.preventDefault();
+  var sectionJump = $('a[href^="#media"]') && $('.section-jump')
 
-      var target = this.hash;
-      var $target = $(target);
+  if(sectionJump){
+  	$(sectionJump).on('click',function (e) {
 
-      $('html, body').stop().animate({
+      	e.preventDefault();
+
+      	var target = this.hash;
+      	var $target = $(target);
+
+      	$('html, body').stop().animate({
           'scrollTop': $target.offset().top
-      }, 900, 'swing', function () {
+      	}, 900, 'swing', function () {
           window.location.hash = target;
-      });
-  }); //end smooth scrolling
+      	});
+  	}); 
+  }
+  //end smooth scrolling
 
   // Photo Gallery functionality for media pg
   	 //Show photos after first row on click
   	$('.more-photos').click(function(){
-     	$(".photo-gallery img:nth-child(n+4)").slideToggle('slow');
+     	$(".photo-gallery a:nth-child(n+4)").slideToggle('slow');
   		}
 	); //end photo expansion
 
