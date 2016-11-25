@@ -50,6 +50,7 @@ The goal of this redesign is to make a cleaner, mobile-friendly version of the s
 - If IG API is a no-go, add photo gallery 
 	* [https://www.instagram.com/developer/embedding/]
 	* [http://www.instush.com/embed]
+- Popup tutorial: [http://demos.jquerymobile.com/1.4.5/popup/]
 
 ###About the Collective Page
 - [DONE] Embed group image in within the text
