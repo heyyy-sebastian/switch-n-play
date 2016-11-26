@@ -38,10 +38,14 @@ $(document).ready(function(){
 	); //end photo expansion
 
 	//Photo-Gallery pop-ups
-	$('#photo-1').click(function(){
-		$(this).css('display','visible');
-		}
-	);
+	$('.photo-gallery').magnificPopup({
+		delegate: 'a',
+		type: 'image',
+		closeOnContentClick: true, 
+    	image: { 
+        	verticalFit: false 
+    		} 
+		});
 
 
   //Swap out View More/View Less photos on click

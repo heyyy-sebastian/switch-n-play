@@ -421,10 +421,6 @@ h1.skip-to span a:hover{
   display: none;
 }
 
-.modal-div{
-  display:none;
-}
-
 /* Button Styling */
 button {
   display: block;
