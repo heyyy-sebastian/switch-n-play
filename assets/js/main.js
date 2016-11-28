@@ -15,7 +15,7 @@ $(document).ready(function(){
   //Smooth scrolling for internal links on media pg
   //Credit: https://paulund.co.uk/smooth-scroll-to-internal-links-with-jquery
   
-  	$('.section-jump').on('click',function (e) {
+  	$('.smooth-scroll').on('click',function (e) {
 
       	e.preventDefault();
 
