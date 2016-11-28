@@ -2,7 +2,7 @@ $(document).ready(function(){
   //verify jquery is loaded
   console.log("ready!")
 
-  //intialize slick slider for homepage
+  //intialize slick Slider for homepage
   $('.homepage-carousel').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -33,7 +33,7 @@ $(document).ready(function(){
   // Photo Gallery functionality for media pg
   	 //Show photos after first row on click
   	$('.more-photos').click(function(){
-     	$(".photo-gallery a:nth-child(n+4)").slideToggle('slow');
+     	$(".photo-gallery a:nth-child(n+7)").slideToggle('slow');
   		}
 	); //end photo expansion
 
@@ -60,7 +60,7 @@ $(document).ready(function(){
 	});//end text swap
   
 
-
+//Members Pop-Up Bios on cards
   $(document).on('click.card', '.card', function (e) {
       console.log("clicked");
       //AT THIS POINT IN THE FUNCTION 'e' is the EVENT

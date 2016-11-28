@@ -417,7 +417,7 @@ h1.skip-to span a:hover{
   margin-bottom: 1.5em;
 }
 
-.photo-gallery a:nth-child(n+6) {
+.photo-gallery a:nth-child(n+7) {
   display: none;
 }
 
