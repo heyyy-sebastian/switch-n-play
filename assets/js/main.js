@@ -33,7 +33,8 @@ $(document).ready(function(){
   // Photo Gallery functionality for media pg
   	 //Show photos after first row on click
   	$('.more-photos').click(function(){
-     	$(".photo-gallery a:nth-child(n+7)").slideToggle('slow');
+     	$('.photo-gallery a:nth-child(n+7)').slideToggle('slow');
+      $('.photo-gallery a').css('display', 'initial');
   		}
 	); //end photo expansion
 
