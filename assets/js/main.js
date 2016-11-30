@@ -33,15 +33,7 @@ $(document).ready(function(){
   // Photo Gallery functionality for media pg
   	 //Show photos after first row on click
   	$('.more-photos').click(function(){
-      //I need to figure out a way to have no styling applied to the 
-      //a tags upon expansion -- right now, when the view-more button
-      //is clicked, it applies "dispaly:inline-block" to all the a tags.
-      //If I try to remove the styling, it defaults back to display:none,
-      //so I need to remove *any* display styling rule from the a tags,
-      //Photos display correctly when the img is inline-block and no display
-      //rules are set on the a tag. >>Move display rule to a tags/away from 
-      //photo-gallery class??
-     	$('.photo-gallery a:nth-child(n+7)').slideToggle('slow');
+      $('.expansion-display').slideToggle('slow');
   		}
 	); //end photo expansion
 
