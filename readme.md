@@ -46,12 +46,11 @@ The goal of this redesign is to make a cleaner, mobile-friendly version of the s
 ###Media Page
 - Press Section with links to news articles >>> need from M
 - Awards section >>> need from M
-- Research if Instagram feed can be added from IG API >>> need pw/account info from M
-- If IG API is a no-go, add photo gallery 
+- [DONE] Research if Instagram feed can be added from IG API >>> need pw/account info from M
+- [DONE] If IG API is a no-go, add photo gallery 
 	* [https://www.instagram.com/developer/embedding/]
 	* [http://www.instush.com/embed]
-- Popup tutorial: [http://demos.jquerymobile.com/1.4.5/popup/]
-- Popup plugin: [http://dimsemenov.com/plugins/magnific-popup/]
+	* Popup plugin: [http://dimsemenov.com/plugins/magnific-popup/]
 
 ###About the Collective Page
 - [DONE] Embed group image in within the text

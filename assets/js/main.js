@@ -2,7 +2,7 @@ $(document).ready(function(){
   //verify jquery is loaded
   console.log("ready!")
 
-  //intialize slick Slider for homepage
+  //intialize Slick Img Slider for homepage
   $('.homepage-carousel').slick({
     slidesToShow: 3,
     slidesToScroll: 1,
@@ -14,7 +14,6 @@ $(document).ready(function(){
 
   //Smooth scrolling for internal links on media pg
   //Credit: https://paulund.co.uk/smooth-scroll-to-internal-links-with-jquery
-  
   	$('.smooth-scroll').on('click',function (e) {
 
       	e.preventDefault();
@@ -31,24 +30,22 @@ $(document).ready(function(){
   //end smooth scrolling
 
   // Photo Gallery functionality for media pg
-  	 //Show photos after first row on click
-  	$('.more-photos').click(function(){
-      $('.expansion-display').slideToggle('slow');
-  		}
-	); //end photo expansion
+  	 //Show photos after second row on click
+  $('.more-photos').click(function(){
+    $('.expansion-display').slideToggle('slow');
+  }); //end photo expansion
 
-	//Photo-Gallery pop-ups
+	//Photo-Gallery individual img pop-ups
 	$('.photo-gallery').magnificPopup({
 		delegate: 'a',
 		type: 'image',
 		closeOnContentClick: true, 
     	image: { 
         	verticalFit: false 
-    		} 
+    		}
 		});
 
-
-  //Swap out View More/View Less photos on click
+  //Swap out View More/View Less photos on button click
 	$('.more-photos').click(function() {
   		var el = $(this);
   		if (el.text() == el.data("text-swap")) {
