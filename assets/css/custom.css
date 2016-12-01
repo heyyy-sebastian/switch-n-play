@@ -421,6 +421,10 @@ h1.skip-to span a:hover{
   outline: none;
 }
 
+.photo-gallery a:hover {
+  opacity: .7;
+}
+
 .expansion-display {
   display: none;
 }

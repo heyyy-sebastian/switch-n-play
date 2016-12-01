@@ -55,35 +55,15 @@ $(document).ready(function(){
     		el.text(el.data("text-swap"));
   		}
 	});//end text swap
-  
 
 //Members Pop-Up Bios on cards
   $(document).on('click.card', '.card', function (e) {
-      console.log("clicked");
-      //AT THIS POINT IN THE FUNCTION 'e' is the EVENT
+     console.log("clicked");
 
-      if ($(this).find('.card-reveal')) {
-        //so once the click event is recognized, find the card-reveal class
-        //if the card-reveal class returns true, show the card
-        //using the following if-else statement -- but do we really need it?
-        //probably can be simplified
-        var testVar = $(this).find('.card-reveal');
-        console.log(testVar);
-        console.log("found the card-reveal");
-        // may need to rework these classes
-
-        if ($(e.target).is($('.card-reveal .card-title')) ||
-          $(e.target).is($('.card-reveal .card-title i')) || 
-          $(e.target).is(this)) {
-          console.log("found the card-reveal icon");
-          //AT THIS POINT IN THE FUNCTION 'this' IS THE WHOLE CARD
-
+      if ($(this).find('> .card-reveal').length) {
+        if ($(e.target).is($('.card-reveal .card-title')) || $(e.target).is($('.card-reveal .card-title i'))) {
           // Make Reveal animate down and display none
-          //look up .velocity in jQuery docs > this is a plugin imported
-          //in the materialize docs
-        
-
-          $(this).find('.card-reveal').velocity(
+         $(this).find('.card-reveal').velocity(
             {translateY: 0}, {
               duration: 225,
               queue: false,
@@ -92,9 +72,8 @@ $(document).ready(function(){
             }
           );
         }
-        else if ($(e.target).is($('.card .activator')) ||
-                 $(e.target).is($('.card .activator i')) ) {
-          console.log("found the activator")
+      else if ($(e.target).is($('.card .activator')) ||
+                $(e.target).is($('.card .activator i')) ) {
           $(e.target).closest('.card').css('overflow', 'hidden');
           $(this).find('.card-reveal').css({ display: 'block'}).velocity("stop", false).velocity({translateY: '-100%'},
             {duration: 300, queue: false, easing: 'easeInOutQuad'});
@@ -104,6 +83,7 @@ $(document).ready(function(){
       $('.card-reveal').closest('.card').css('overflow', 'hidden');
 
     });
+
 
 
 })//end wrapper function
