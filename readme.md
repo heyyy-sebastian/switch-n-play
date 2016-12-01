@@ -5,21 +5,28 @@ The current site is [www.switchnplay.com]
 
 The goal of this redesign is to make a cleaner, mobile-friendly version of the site.
 
+##Reference tutorials & Plugins used:
+1. Slick Img Carousel: [http://kenwheeler.github.io/slick/|http://kenwheeler.github.io/slick/]
+2. MagnificPopup: [http://dimsemenov.com/plugins/magnific-popup/]
+3. Smooth Scrolling: [https://paulund.co.uk/smooth-scroll-to-internal-links-with-jquery]
+4. Text Swap: [https://css-tricks.com/swapping-out-text-five-different-ways/]
+5. Sticky Footer: [http://matthewjamestaylor.com/blog/keeping-footers-at-the-bottom-of-the-page]
+
 ##To-Do
 ###Global Changes
 - Implement mobile breakpoints across all pages //Friday 28 Oct
 - [DONE] Implement more robust CSS browser resets -- this actually wasn't necessary because the necessary resets are in the global settings in custom.css
 - Make sure all a tags are updated and point to the right page
-- See if there's a way to make the dropdown menu less shakey?
+- [DONE] See if there's a way to make the dropdown menu less shakey?
 - [DONE] Obsessively comment all of my code so Mary & Meke know what stuff does
 - Add TOC when finished
-- Sticky header
+- [NOPE] Sticky header
 - Add pg-to-pg transition animation
 - Cross-browser testing
 - Figure out why none of the titles on the section pgs will center???
 
 ###NavBar
-- Add color to li for active pg //currently commented out
+- [DONE] Add color to li for active pg //currently commented out
 - [DONE] Reposition down arrow on mobile sizes
 - [DONE] Color of dropdown box on mobile sizes
 - [DONE] Center SnP title on smaller screen sizes
