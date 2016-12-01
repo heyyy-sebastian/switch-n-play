@@ -61,8 +61,10 @@ $(document).ready(function(){
      console.log("clicked");
 
       if ($(this).find('> .card-reveal').length) {
+        console.log("registered");
         if ($(e.target).is($('.card-reveal .card-title')) || $(e.target).is($('.card-reveal .card-title i'))) {
           // Make Reveal animate down and display none
+          console.log("registered");
          $(this).find('.card-reveal').velocity(
             {translateY: 0}, {
               duration: 225,
@@ -74,9 +76,13 @@ $(document).ready(function(){
         }
       else if ($(e.target).is($('.card .activator')) ||
                 $(e.target).is($('.card .activator i')) ) {
+        console.log("registered");
           $(e.target).closest('.card').css('overflow', 'hidden');
-          $(this).find('.card-reveal').css({ display: 'block'}).velocity("stop", false).velocity({translateY: '-100%'},
-            {duration: 300, queue: false, easing: 'easeInOutQuad'});
+          $(this).find('.card-reveal').css({ display: 'block'}).velocity("stop", false).velocity(
+            { translateY: '-100%'},
+            { duration: 300, 
+              queue: false, 
+              easing: 'easeInOutQuad'});
         }
       }
 

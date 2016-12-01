@@ -11,6 +11,8 @@ The goal of this redesign is to make a cleaner, mobile-friendly version of the s
 3. Smooth Scrolling: [https://paulund.co.uk/smooth-scroll-to-internal-links-with-jquery]
 4. Text Swap: [https://css-tricks.com/swapping-out-text-five-different-ways/]
 5. Sticky Footer: [http://matthewjamestaylor.com/blog/keeping-footers-at-the-bottom-of-the-page]
+6. Card components from Google's Material Design: [http://materializecss.com/cards.html]
+7. Velocity plugin: [http://velocityjs.org/]
 
 ##To-Do
 ###Global Changes
