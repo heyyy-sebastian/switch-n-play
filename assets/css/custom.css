@@ -417,6 +417,10 @@ h1.skip-to span a:hover{
   margin-bottom: 1.5em;
 }
 
+.photo-gallery a:focus {
+  outline: none;
+}
+
 .expansion-display {
   display: none;
 }
@@ -631,6 +635,15 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
     padding: 0;
   }
 
+  /* media page */
+  .photo-gallery {
+    margin: 1.5em 0 0;
+  }
+
+  button {
+    margin-bottom: 1.5em;
+  }
+
 }
 
  /* screens smaller than iPads */
@@ -670,6 +683,11 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
     padding: 0;
   }
 
+  /* media pg */
+  .gallery-img {
+    height: auto;
+    width: 48%;
+  }
 
   /* RESPONSIVE NAVBAR */
   .top-nav{
@@ -792,6 +810,11 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
   /* about the collective */
   .about-container {
     padding: 0 1.7em;
+  }
+
+  .gallery-img{
+    height: auto;
+    width: 98%;
   }
 
 }
