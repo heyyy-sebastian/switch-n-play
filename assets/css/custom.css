@@ -181,11 +181,6 @@ because the images look better in a wider container*/
   text-transform: uppercase;
 }
 
-.row{
-  margin: 0 auto;
-  padding: 1em;
-}
-
 
 .former-members{
   text-align: center;
@@ -277,8 +272,8 @@ span.card-title.divina{
   right: 0;
   top: 0;
   bottom: 0;
-  height: 17em;
-  width: 16em;
+  height: 20em;
+  width: 17em;
 }
 
 .card .card-image .card-title {
@@ -334,7 +329,7 @@ span.card-title.divina{
   width: 100%;
   overflow-y: auto;
   top: 100%;
-  height: 100%;
+  height: 90%;
   z-index: 3;
   display: none;
 }

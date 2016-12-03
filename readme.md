@@ -25,7 +25,7 @@ The goal of this redesign is to make a cleaner, mobile-friendly version of the s
 - [NOPE] Sticky header
 - Add pg-to-pg transition animation
 - Cross-browser testing
-- Figure out why none of the titles on the section pgs will center??? >>> adjust height of nav ul!!!
+- [DONE] Figure out why none of the titles on the section pgs will center??? >>> adjust height of nav ul!!!
 
 ###NavBar
 - [DONE] Add color to li for active pg //currently commented out
