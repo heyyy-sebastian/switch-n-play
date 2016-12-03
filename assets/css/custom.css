@@ -60,7 +60,6 @@ body{
 
 /*This is the content from the right-hand side of the nav bar (page links)*/
 nav ul{
-  height: 12em;
   float: right;
   padding: .5em;
   width: 50%;
@@ -139,6 +138,7 @@ nav ul li{
 }
 
 .about-container h1{
+  text-align: center;
   text-transform: uppercase;
   font-size: 1.7em;
 }
