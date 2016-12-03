@@ -4,13 +4,20 @@ $(document).ready(function(){
 
   //intialize Slick Img Slider for homepage
   $('.homepage-carousel').slick({
-    slidesToShow: 3,
+    slidesToShow: 2,
     slidesToScroll: 1,
     //autoplay: true,
-    //autoplaySpeed: 2000,
-    //dots: true,
-    arrows: true
-  })
+    autoplaySpeed: 2000,
+
+    responsive: [
+      {
+       breakpoint: 900,
+        settings: {
+          slidesToShow: 1,
+        }
+      }
+    ] //end responsive breakpoints for img slider
+  }) //end responsive img slider
 
   //Smooth scrolling for internal links on media pg
   //Credit: https://paulund.co.uk/smooth-scroll-to-internal-links-with-jquery

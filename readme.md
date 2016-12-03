@@ -6,7 +6,7 @@ The current site is [www.switchnplay.com]
 The goal of this redesign is to make a cleaner, mobile-friendly version of the site.
 
 ##Reference tutorials & Plugins used:
-1. Slick Img Carousel: [http://kenwheeler.github.io/slick/|http://kenwheeler.github.io/slick/]
+1. Slick Img Carousel: [http://kenwheeler.github.io/slick/]
 2. MagnificPopup: [http://dimsemenov.com/plugins/magnific-popup/]
 3. Smooth Scrolling: [https://paulund.co.uk/smooth-scroll-to-internal-links-with-jquery]
 4. Text Swap: [https://css-tricks.com/swapping-out-text-five-different-ways/]
@@ -38,7 +38,8 @@ The goal of this redesign is to make a cleaner, mobile-friendly version of the s
 - [DONE] indent SnP logo a bit on larger screen sizes //Friday 28 Oct
 
 ###Landing Page
-- Image carousel
+//Get current photos instead of place holders//
+- [DONE] Image carousel
 - [http://kenwheeler.github.io/slick/|http://kenwheeler.github.io/slick/]
 
 ###Contact Page
@@ -47,7 +48,7 @@ The goal of this redesign is to make a cleaner, mobile-friendly version of the s
 
 ###Members Page
 //Photo shoot w Fuschia: Nov 13//
-- Pop-Up functionality for bio paragraph: should slide up over image on click
+- [DONE] Pop-Up functionality for bio paragraph: should slide up over image on click
 - [DONE] Add list of former/founding members
 - Add current performer bios >>> need from M
 - Adjust proportions of some of the performer photos so they're less warped >>> need from M

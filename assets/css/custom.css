@@ -117,7 +117,7 @@ nav ul li{
 }
 
 .img-resize{
-  height: auto;
+  height: 30em;
   width: calc(100%);
 }
 
@@ -552,6 +552,8 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
 
   nav ul{
     width: 60%;
+    padding: 0;
+    margin: 0;
   }
 
 }
@@ -580,7 +582,7 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
 
   nav ul{
     width: 55%;
-    padding: .6em .8em;
+    padding: .6em .8em 0;
   }
 
   .nav-title{
@@ -596,10 +598,6 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
   .nav-title p{
     padding: .5em 0 0 2.5em;
     font-size: .9em;
-  }
-
-  ul{
-    padding: 0;
   }
 
   nav ul li{
