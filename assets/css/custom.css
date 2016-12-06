@@ -685,6 +685,11 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
     width: 48%;
   }
 
+  /* index pg */
+  .img-resize {
+    height: 25em;
+  }
+
   /* RESPONSIVE NAVBAR */
   .top-nav{
     height: 8em;
@@ -708,7 +713,7 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
   nav ul {
     width: 100%;
     display: block;
-    margin: 0 0  1em;
+    margin: 0em;
     padding: 0;
     background-color: #3F51B5;
     height: 3em;
@@ -801,6 +806,11 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
 
   .material-icons{
     line-height: .8;
+  }
+
+  /* index pg */
+  .img-resize {
+    height: 15em;
   }
 
   /* about the collective */
