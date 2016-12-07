@@ -16,16 +16,6 @@
     </head>
 
     <body>
-      <!--Like Us on FB script-->
-      <div id="fb-root"></div>
-      <script>(function(d, s, id) {
-            var js, fjs = d.getElementsByTagName(s)[0];
-            if (d.getElementById(id)) return;
-            js = d.createElement(s); js.id = id;
-            js.src = "//connect.facebook.net/en_US/sdk.js#xfbml=1&version=v2.6";
-            fjs.parentNode.insertBefore(js, fjs);
-            }(document, 'script', 'facebook-jssdk'));
-      </script>
       <!--Import jQuery before main.js-->
       <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
       <script type="text/javascript" src="assets/js/main.js"></script>
@@ -67,7 +57,7 @@
         <div class="connect-div">
           <h1>Connect</h1>
           <p>Like us on Facebook</p>
-          <div class="fb-like" data-href="https://www.facebook.com/switchnplay/" data-layout="standard" data-width="30" data-action="like" data-show-faces="false" data-share="true">Like</div>
+          <iframe src="https://www.facebook.com/plugins/like.php?href=https%3A%2F%2Fwww.facebook.com%2Fswitchnplay%2F&width=450&layout=standard&action=like&size=small&show_faces=true&share=true&height=80&appId" width="450" height="80" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowTransparency="true"></iframe>
           <p>Follow us on Instagram</p>
           <p>@switchnplay</p>
         </div>
