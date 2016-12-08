@@ -44,7 +44,7 @@ The goal of this redesign is to make a cleaner, mobile-friendly version of the s
 
 ###Contact Page
 - Add social Media Icons (Instagram, Facebook)
-- "Like Us on Facebook" button
+- [DONE] "Like Us on Facebook" button
 
 ###Members Page
 //Photo shoot w Fuschia: Nov 13//
