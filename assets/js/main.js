@@ -33,7 +33,7 @@ $(document).ready(function(){
       	}, 900, 'swing', function () {
           window.location.hash = target;
       	});
-  	}); 
+  	});
   //end smooth scrolling
 
   // Photo Gallery functionality for media pg
@@ -46,9 +46,9 @@ $(document).ready(function(){
 	$('.photo-gallery').magnificPopup({
 		delegate: 'a',
 		type: 'image',
-		closeOnContentClick: true, 
-    	image: { 
-        	verticalFit: false 
+		closeOnContentClick: true,
+    	image: {
+        	verticalFit: false
     		}
 		});
 
@@ -87,15 +87,15 @@ $(document).ready(function(){
           $(e.target).closest('.card').css('overflow', 'hidden');
           $(this).find('.card-reveal').css({ display: 'block'}).velocity("stop", false).velocity(
             { translateY: '-100%'},
-            { duration: 300, 
-              queue: false, 
+            { duration: 300,
+              queue: false,
               easing: 'easeInOutQuad'});
         }
       }
 
       $('.card-reveal').closest('.card').css('overflow', 'hidden');
 
-    });
+    });//end pop-up functionality for bios
 
 
 

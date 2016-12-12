@@ -389,6 +389,10 @@ span{
   min-height: 40em;
 }
 
+.awards-2016 {
+  text-indent: 2.9em;
+}
+
 /* Styling for Jump-to text */
 h1.skip-to{
   font-size: 1.2em;
@@ -402,6 +406,8 @@ h1.skip-to span a:hover{
   text-decoration: none;
   color: #5C6BC0;
 }
+
+/*photo gallery styling*/
 
 .gallery-img {
   height: auto;
@@ -831,7 +837,7 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
   .about-container p {
     font-size: 1em;
   }
-  
+
 }
 
 
