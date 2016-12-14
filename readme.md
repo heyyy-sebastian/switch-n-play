@@ -54,7 +54,7 @@ The goal of this redesign is to make a cleaner, mobile-friendly version of the s
 - Adjust proportions of some of the performer photos so they're less warped >>> need from M
 
 ###Media Page
-- Press Section with links to news articles >>> need from M
+- [DONE] Press Section with links to news articles >>> need from M
 - Awards section >>> need from M
 - [DONE] Research if Instagram feed can be added from IG API >>> need pw/account info from M
 - [DONE] If IG API is a no-go, add photo gallery 
