@@ -183,8 +183,16 @@ because the images look better in a wider container*/
 }
 
 .card-container {
-  width: 80%;
+  width: 95%;
   margin: 0 auto;
+}
+
+.row {
+  margin: 0 auto;
+}
+
+.row.card {
+  width: 30%;
 }
 
 .former-members{
