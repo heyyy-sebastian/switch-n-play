@@ -678,6 +678,11 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
     width: calc(100%);
   }
 
+  /* members pg */
+  #members-title {
+    padding-top: .7em;
+  }
+
   /* shows */
   #see-snp-title{
     padding-top: 2em;
