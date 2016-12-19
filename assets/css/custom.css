@@ -118,7 +118,8 @@ nav ul li{
 
 .img-resize{
   height: auto;
-  width: calc(100%);
+  width: calc(99%);
+  border: 5px solid #9fa8da;
 }
 
 /* Homepage media queries */
