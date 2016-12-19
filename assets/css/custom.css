@@ -182,17 +182,8 @@ because the images look better in a wider container*/
   text-align: center;
 }
 
-.card-container {
-  width: 95%;
-  margin: 0 auto;
-}
-
-.row {
-  margin: 0 auto;
-}
-
-.row.card {
-  width: 30%;
+.card-wrapper {
+  text-align: center;
 }
 
 .former-members{
@@ -215,7 +206,7 @@ because the images look better in a wider container*/
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12);
   display: inline-block;
   position: relative;
-  margin: 0.5rem 1rem 2rem;
+  margin: 1rem 1.5rem;
   background-color: #fff;
   transition: box-shadow .25s;
   border-radius: 2px;
@@ -294,6 +285,11 @@ span.card-title.divina{
   bottom: 0;
   left: 0;
   padding: 20px;
+}
+
+/* addition */
+.card-content, .card-reveal > * {
+  text-align: left;
 }
 
 .card .card-content {
