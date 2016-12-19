@@ -230,39 +230,6 @@ span.card-title.divina{
   cursor: pointer;
 }
 
-.card.small, .card.medium, .card.large {
-  position: relative;
-}
-
-.card.small .card-image, .card.medium .card-image, .card.large .card-image {
-  max-height: 60%;
-  overflow: hidden;
-}
-
-.card.small .card-content, .card.medium .card-content, .card.large .card-content {
-  max-height: 40%;
-  overflow: hidden;
-}
-
-.card.small .card-action, .card.medium .card-action, .card.large .card-action {
-  position: absolute;
-  bottom: 0;
-  left: 0;
-  right: 0;
-}
-
-.card.small {
-  height: 300px;
-}
-
-.card.medium {
-  height: 400px;
-}
-
-.card.large {
-  height: 500px;
-}
-
 .card .card-image {
   position: relative;
 }
