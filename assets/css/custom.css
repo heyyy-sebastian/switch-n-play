@@ -374,6 +374,16 @@ div.upcoming-shows {
   text-indent: 2.9em;
 }
 
+.social-media, .press-section {
+  padding-bottom: 1em;
+}
+
+.facebook-feed, .instagram-feed {
+  display: inline-block;
+  width: 48%;
+  vertical-align: top;
+}
+
 /* Styling for Jump-to text */
 h1.skip-to{
   font-size: 1.2em;
@@ -413,7 +423,7 @@ h1.skip-to span a:hover{
 /* Button Styling */
 button {
   display: block;
-  margin: 0 auto;
+  margin: 0 auto 1.5em;
   padding: 1em 1.5em;
   color: #fff;
   background-color: #283593;
