@@ -384,6 +384,10 @@ div.upcoming-shows {
   vertical-align: top;
 }
 
+.facebook-feed {
+  margin-right: 1.5em;
+}
+
 .iframe-wrapper {
   width:100%;
   height:auto;
