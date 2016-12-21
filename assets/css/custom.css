@@ -384,6 +384,30 @@ div.upcoming-shows {
   vertical-align: top;
 }
 
+.iframe-wrapper {
+  width:100%;
+  height:auto;
+  margin:0 auto;
+}
+
+.iframe-height {
+  position:relative;
+}
+
+.iframe-height .ratio {
+  display:block;
+  width:100%;
+  height: 90px;
+}
+
+.iframe-height iframe {
+  position:absolute;
+  top:0;
+  left:0;
+  width:100%;
+  height:100%;
+}
+
 /* Styling for Jump-to text */
 h1.skip-to{
   font-size: 1.2em;
@@ -685,6 +709,11 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
   .gallery-img {
     height: auto;
     width: 48%;
+  }
+
+  .facebook-feed, .instagram-feed {
+    display: block;
+    width: 100%;
   }
 
   /* RESPONSIVE NAVBAR */
