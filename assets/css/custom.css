@@ -355,6 +355,10 @@ span{
   padding-bottom: 2.5em;
 }
 
+div.upcoming-shows {
+  vertical-align: top;
+}
+
 .upcoming-shows img{
   height: auto;
   width: calc(90%);
@@ -650,7 +654,7 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
 
   /* shows */
   #see-snp-title{
-    padding-top: 2em;
+    padding-top: 3em;
   }
 
   .upcoming-shows {
@@ -799,6 +803,11 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
   .gallery-img{
     height: auto;
     width: 98%;
+  }
+
+  /* shows */
+  #see-snp-title{
+    padding-top: 2.5em;
   }
 
 }
