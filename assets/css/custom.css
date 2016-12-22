@@ -469,6 +469,20 @@ button:focus {
   outline: none;
 }
 
+.awards-list {
+  font-size: 1.2em;
+  padding: 0;
+}
+
+.awards-list li {
+  padding: .3em 0;
+}
+
+.awards-list p{
+  line-height: 125%;
+  margin-top: 0em;
+}
+
 /* Footer Styling */
 
 #footer-wrapper{
@@ -657,6 +671,10 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
   }
 
   /* media page */
+  .about-container h1:not(.skip-to) {
+    padding-top: .5em;
+  }
+
   .photo-gallery {
     margin: 1.5em 0 0;
   }
@@ -851,6 +869,12 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
   /* shows */
   #see-snp-title{
     padding-top: 2.5em;
+  }
+
+  /* media */
+  h1.skip-to span {
+    display: block;
+    padding: 0;
   }
 
 }
