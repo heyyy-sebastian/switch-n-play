@@ -1,7 +1,7 @@
 # Switch N' Play Site Redesign
 
 This is the ReadMe for the Switch N' Play drag collective website redesign.
-The current site is [www.switchnplay.com]
+The current site is [www.switchnplay.com] The test site can be viewed here: [https://mermatriarchy.github.io/switch-n-play/index]
 
 The goal of this redesign is to make a cleaner, mobile-friendly version of the site.
 Strategically, the end goal(s) would be for traffic to the site to result in an increase 
@@ -26,8 +26,8 @@ from scratch again.
 
 ##Release 2
 As of 12/24/2016, the site is ready to be published, pending photo approval and performer bio
-additions (and finalizing the TOC). The test site can be viewed here: [https://mermatriarchy.github.io/switch-n-play/index]
-There are a few other ideas I had to improve the site after the initial launch.
+additions (and finalizing the TOC). There are a few other ideas I had to improve the site after 
+the initial launch.
 
 ###Additional Features
 - Adding some of Fuschia's performance photos to the photo galleries 
