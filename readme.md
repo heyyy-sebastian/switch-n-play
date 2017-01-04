@@ -4,6 +4,16 @@ This is the ReadMe for the Switch N' Play drag collective website redesign.
 The current site is [www.switchnplay.com]
 
 The goal of this redesign is to make a cleaner, mobile-friendly version of the site.
+Strategically, the end goal(s) would be for traffic to the site to result in an increase 
+in show attendance, and a straight-forward way to contact the group for press coverage
+and/or performer connections/networking.
+
+I didn't use a framework for the front-end functionality, which I now deeply regret because
+making it responsive was pretty labor-intensive, but I did learn a lot about media queries 
+and the overall the load time of the site is great. I decided not to use a framework mainly 
+because it seemed a little heavy-handed for a site that was only 6 pages total. So overall
+it was a good learning experience, though I don't know if I'd try to build something like this
+from scratch again.
 
 ##Reference tutorials & Plugins used:
 1. Slick Img Carousel: [http://kenwheeler.github.io/slick/]
@@ -14,53 +24,13 @@ The goal of this redesign is to make a cleaner, mobile-friendly version of the s
 6. Card components from Google's Material Design: [http://materializecss.com/cards.html]
 7. Velocity plugin: [http://velocityjs.org/]
 
-##To-Do
-###Global Changes
-- Implement mobile breakpoints across all pages //Friday 28 Oct
-- [DONE] Implement more robust CSS browser resets -- this actually wasn't necessary because the necessary resets are in the global settings in custom.css
-- Make sure all a tags are updated and point to the right page
-- [DONE] See if there's a way to make the dropdown menu less shakey?
-- [DONE] Obsessively comment all of my code so Mary & Meke know what stuff does
-- Add TOC when finished
-- [NOPE] Sticky header
-- Add pg-to-pg transition animation
-- Cross-browser testing
-- [DONE] Figure out why none of the titles on the section pgs will center??? >>> adjust height of nav ul!!!
+##Release 2
+As of 12/24/2016, the site is ready to be published, pending photo approval and performer bio
+additions (and finalizing the TOC). The test site can be viewed here: [https://mermatriarchy.github.io/switch-n-play/index]
+There are a few other ideas I had to improve the site after the initial launch.
 
-###NavBar
-- [DONE] Add color to li for active pg //currently commented out
-- [DONE] Reposition down arrow on mobile sizes
-- [DONE] Color of dropdown box on mobile sizes
-- [DONE] Center SnP title on smaller screen sizes
-- [DONE] Indent SnP title on largest screen sizes
-
-###Footer
-- [DONE] indent SnP logo a bit on larger screen sizes //Friday 28 Oct
-
-###Landing Page
-//Get current photos instead of place holders//
-- [DONE] Image carousel
-- [http://kenwheeler.github.io/slick/|http://kenwheeler.github.io/slick/]
-
-###Contact Page
-- Add social Media Icons (Instagram, Facebook)
-- [DONE] "Like Us on Facebook" button
-
-###Members Page
-//Photo shoot w Fuschia: Nov 13//
-- [DONE] Pop-Up functionality for bio paragraph: should slide up over image on click
-- [DONE] Add list of former/founding members
-- Add current performer bios >>> need from M
-- Adjust proportions of some of the performer photos so they're less warped >>> need from M
-
-###Media Page
-- [DONE] Press Section with links to news articles >>> need from M
-- Awards section >>> need from M
-- [DONE] Research if Instagram feed can be added from IG API >>> need pw/account info from M
-- [DONE] If IG API is a no-go, add photo gallery 
-	* [https://www.instagram.com/developer/embedding/]
-	* [http://www.instush.com/embed]
-	* Popup plugin: [http://dimsemenov.com/plugins/magnific-popup/]
-
-###About the Collective Page
-- [DONE] Embed group image in within the text
+###Additional Features
+- Adding some of Fuschia's performance photos to the photo galleries 
+- Adding forward/backward arrows to the photo galleries 
+- Adding a contact form that people could fill out to apply to perform in Moxie
+- Further researching ways to incorporate SnP's Instagram feed into the site.
