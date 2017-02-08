@@ -15,6 +15,17 @@ because it seemed a little heavy-handed for a site that was only 6 pages total. 
 it was a good learning experience, though I don't know if I'd try to build something like this
 from scratch again.
 
+##To-Do per M's feedback
+- Update color scheme to black/pink/reds
+    - hover state on copyright footer (lighten)
+    - Headlines in press section (darken to match button)
+    - update menu bar color in mobile to gray
+- [DONE] Update copy
+- add links to magazines on about pg
+- Update performer photos/bios
+- reconfigure cards to have 4x2 rows on desktop view
+- founding members name formatting on smaller screen sizes
+
 ##Reference tutorials & Plugins used:
 1. Slick Img Carousel: [http://kenwheeler.github.io/slick/]
 2. MagnificPopup: [http://dimsemenov.com/plugins/magnific-popup/]
