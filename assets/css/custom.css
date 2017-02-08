@@ -31,7 +31,7 @@ body{
 
 /*Nav Bar*/
 .top-nav{
-  background-color: #283593;
+  background-color: #000;
   height: 12em;
   color: #fff;
   -webkit-box-shadow: 0 0 1.5em 1em #a9a9a9;
@@ -83,7 +83,7 @@ nav ul li{
   left: -1em;
   z-index:-1;
   opacity:0;
-  background:#3f51b5;
+  background:#212121;
   padding: .5em;
   font-size: .75em;
   border-radius: .2em;
@@ -492,7 +492,7 @@ button:focus {
 }
 
 footer{
-  background-color: #283593;
+  background-color: #212121;
   color: #fff;
 }
 
@@ -526,7 +526,7 @@ footer{
 }
 
 .footer-copyright{
-  background-color: #1a237e;
+  background-color: #000;
   padding: .25em 3em;
   line-height: 65%;
 }
