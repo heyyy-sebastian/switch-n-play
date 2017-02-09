@@ -17,9 +17,9 @@ from scratch again.
 
 ##To-Do per M's feedback
 - Update color scheme to black/pink/reds
-    - hover state on copyright footer (lighten)
-    - Headlines in press section (darken to match button)
-    - update menu bar color in mobile to gray
+    - [DONE] hover state on copyright footer (lighten)
+    - [DONE] Headlines in press section (darken to match button)
+    - [DONE] update menu bar color in mobile to gray
 - [DONE] Update copy
 - add links to magazines on about pg
 - Update performer photos/bios
