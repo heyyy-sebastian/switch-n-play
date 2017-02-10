@@ -1,6 +1,18 @@
 /*Table of Contents*/
 
 /*Global Settings*/
+html {
+    overflow: scroll;
+    overflow-x: hidden;
+}
+::-webkit-scrollbar {
+    width: 0px;  /* remove scrollbar space */
+    background: transparent;  /* optional: just make scrollbar invisible */
+}
+/* optional: show position indicator in red */
+::-webkit-scrollbar-thumb {
+    background: #000;
+}
 
 /*This setting helps the footer stick to the bottom of the browser window*/
 #body-container{
