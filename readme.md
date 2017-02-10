@@ -25,6 +25,7 @@ from scratch again.
 - Update performer photos/bios
 - reconfigure cards to have 4x2 rows on desktop view
 - founding members name formatting on smaller screen sizes
+- fix homepg image slider width/border
 
 ##Reference tutorials & Plugins used:
 1. Slick Img Carousel: [http://kenwheeler.github.io/slick/]
