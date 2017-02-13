@@ -1,6 +1,8 @@
 /*Table of Contents*/
 
 /*Global Settings*/
+
+/*hide scrollbar*/
 html {
     overflow: scroll;
     overflow-x: hidden;
