@@ -163,7 +163,7 @@ nav ul li{
   font-size: 1.2em;
 }
 
-.about-container a{
+.about-container a, {
   color: #e91e63;
   font-weight: bold;
 }
@@ -200,6 +200,10 @@ because the images look better in a wider container*/
 
 .card-wrapper {
   text-align: center;
+}
+
+.member-bio-external-link:hover {
+  text-decoration: underline;
 }
 
 .former-members{
@@ -439,7 +443,7 @@ h1.skip-to span a:hover{
   color: #e91e63;
 }
 
-h1.skip-to span a, .press-section p a{
+h1.skip-to span a, .press-section p a, .member-bio-external-link{
   color: #880e4f;
 }
 

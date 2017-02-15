@@ -21,7 +21,7 @@ from scratch again.
     - [DONE] Headlines in press section (darken to match button)
     - [DONE] update menu bar color in mobile to gray
 - [DONE] Update copy
-- add links to magazines on about pg
+- [DONE] add links to magazines on about pg
 - Update performer photos/bios
 - reconfigure cards to have 4x2 rows on desktop view
 - founding members name formatting on smaller screen sizes
