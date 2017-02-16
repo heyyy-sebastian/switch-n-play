@@ -688,6 +688,7 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
   /* media page */
   .about-container h1:not(.skip-to) {
     padding-top: .5em;
+    margin-top: 2.2em;
   }
 
   .photo-gallery {
