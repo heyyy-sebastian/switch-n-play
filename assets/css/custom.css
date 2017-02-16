@@ -675,10 +675,6 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
     margin: 0;
   }
 
-  #about-title {
-    margin-top: 2em;
-  }
-
   #body-container {
     background-color: #fff;
   }
@@ -720,6 +716,10 @@ nav ul li a:hover, .footer-copyright a:hover, .footer-links ul li a:hover{
   .group-photo {
     height: auto;
     width: calc(100%);
+  }
+
+  #about-title {
+    margin-top: 2em;
   }
 
   /* members pg */
